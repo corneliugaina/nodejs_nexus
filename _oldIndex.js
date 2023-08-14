@@ -18,7 +18,7 @@ const eventEmitter = new EventEmitter();
 
 
 /** Async file reading memo */
-// const { readFile } = require('fs').promises
+// const { readFile } = require('fs').promises 
 // async function hello() {
 //     const file = await readFile(`./hello.txt`, "utf-8")
 //     console.log("file : ", file)
@@ -40,7 +40,6 @@ const eventEmitter = new EventEmitter();
 //         if (err) {
 //             response.status(500).send('sorry, out of order (server problem -_-°)')
 //         }
-
 //         response.send(html)
 //     })
 // })
